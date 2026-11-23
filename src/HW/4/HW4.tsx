@@ -36,6 +36,7 @@ export const HW4 = () => {
         {texts.map((el, index) => {
           return (
             <li key={index}
+                id={'hw04-task-' + index}
                 className={index % 2 === 0 ? s.chetNechet : ''}>
               {el}
             </li>
